@@ -1,0 +1,93 @@
+/* UNIVERSAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-color: rgba(255, 255, 255, 1)
+}
+
+/* SHARED STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif{
+     font-family: "Noto Serif", serif;
+}
+
+.inter{
+      font-family: "Inter", sans-serif;
+
+}
+
+.font-16{
+    font-size: 1rem;
+}
+
+/* HEADER STYLES */
+
+header{
+    max-width: 1140px;
+    margin: 0 auto 120px auto;
+
+}
+
+/* NAV STYLES */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 22px 0;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+
+/* BANNER STYLES */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 100px;
+}
+
+.banner-content{
+    max-width: 50%;
+}
+
+.banner-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner-content p{
+    font-size: 1.46rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-image{
+    max-width: 50%;
+}
+
+.banner-image img{
+    width: 100%;
+    display: block;
+    flex: 1;
+}
