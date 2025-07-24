@@ -163,6 +163,7 @@ nav ul a {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
+  cursor: pointer;
 }
 
 /* LIST STYLES */
@@ -222,6 +223,108 @@ nav ul a {
   color: rgba(0, 0, 0, 0.5);
 }
 
+/* DEALS STYLES */
+
+.deals{
+  max-width: 1140px;
+  margin: 0 auto 120px auto;
+}
+
+.deals-title{
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.deals-title h1{
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.deals-title p{
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.deals-images{
+  max-width: 100%;
+  display: flex;
+  gap: 28px;
+  /* justify-content: space-between; */
+  text-align: center;
+}
+
+.deals-images, a{
+  color: #ffffff;
+}
+
+.deals-images a{
+  text-decoration-skip-ink: none;
+  text-underline-offset: 3px;
+}
+
+.deals-first-column-images{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 35%;
+  flex: 1;
+}
+
+
+.deals-first-column-images h3{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.deals-first-column-images h4{
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 26px 50px;
+}
+
+.first-row{
+  padding: 65px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+}
+
+.second-row{
+  padding: 60px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/deal-ana.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+}
+
+.deals-second-column-images{
+  border-radius: 22px;
+  padding: 170px 150px 150px 147px;
+  max-width: 65%;
+  flex: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-second-column-images h3{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.deals-second-column-images h4{
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding: 26px 50px;
+
+}
+
 /* SUBSCRIBE STYLES */
 
 .subscribe {
@@ -271,6 +374,7 @@ nav ul a {
   background-color: rgba(233, 90, 8, 1);
   max-width: 23%;
   flex: 1;
+  cursor: pointer;
 }
 
 .input-content input::placeholder {
