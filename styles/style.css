@@ -164,3 +164,66 @@ nav ul a {
   grid-template-columns: 1fr;
   place-items: center;
 }
+
+/* LIST STYLES */
+
+.list{
+    max-width: 1140px;
+    margin: 0 auto 130px auto;
+}
+
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-image {
+    position: relative;
+}
+
+.list-image:nth-child(1){
+    max-width: 100%;
+}
+
+.list-image img:nth-child(1){
+    width: 100%;
+}
+
+.list-image img:nth-child(2){
+    position: absolute;
+    right: -93px;
+    top: -127px;
+    filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.25));
+}
+
+.list-content{
+    max-width: 540px;
+    
+}
+
+.list-content h1{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.list-content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 2.0em;
+    margin-left: 0;
+}
+
+/* ul{
+    padding-left: 0;
+    margin-left: 0;
+} */
+
+.list-content ul li{
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
