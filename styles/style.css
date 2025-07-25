@@ -293,7 +293,7 @@ a {
 .first-row {
   padding: 65px 50px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/assets/deal-bloom.png);
+    url(../assets/deal-bloom.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -303,7 +303,7 @@ a {
 .second-row {
   padding: 60px 50px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/assets/deal-ana.png);
+    url(../assets/deal-ana.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -316,7 +316,7 @@ a {
   max-width: 65%;
   flex: 1;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/assets/deal-zabo.png);
+    url(../assets/deal-zabo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -336,7 +336,7 @@ a {
 /* SUBSCRIBE STYLES */
 
 .subscribe {
-  background-image: url(/assets/news-letter-bg.png);
+  background-image: url(../assets/news-letter-bg.png);
   margin-bottom: 50px;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -529,7 +529,7 @@ a {
     display: none;
   }
 
-  .deals{
+  .deals {
     margin-bottom: 0px;
   }
 
@@ -561,11 +561,12 @@ a {
   .first-row {
     padding: 60px 50px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(/assets/deal-bloom.png);
+      url(../assets/deal-bloom.png);
   }
 
   .second-row {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/deal-ana.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../assets/deal-ana.png);
   }
 
   .deals-first-column-images h4 {
@@ -577,7 +578,8 @@ a {
     max-width: 100%;
     padding: 60px 50px;
     border-radius: 14px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/deal-zabo.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../assets/deal-zabo.png);
   }
 
   .deals-second-column-images h3 {
@@ -602,7 +604,7 @@ a {
     max-width: 321px;
   }
 
-  .input-content input{
+  .input-content input {
     max-width: 218px;
   }
 
@@ -611,7 +613,7 @@ a {
     padding: 18px 0;
   }
 
-  .footer-container{
+  .footer-container {
     flex-direction: column;
     margin: 50px 20px;
     gap: 25px;
